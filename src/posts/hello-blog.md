@@ -7,14 +7,52 @@ tags: [intro, markdown]
 
 [//]: # (# Hello World)
 
-This post is stored as a Markdown file and rendered as a blog post.
+Greetings! This is a sample blog post that just demonstrates the basics for now.
 
-## Inline math
+## Oh look! An image!
 
-Euler: $e^{i\pi} + 1$
+![Screenshot](screenshot.png)
 
-## Block math
+## Some C code here
 
-$$
-\int_{-\infty}^{\infty} e^{-x^2}\,dx = \sqrt{\pi}
-$$
+```c
+int main() {
+    printf("Hello, world!");
+    return 0;
+}
+```
+
+## Headings
+
+### h3
+#### h4
+##### h5
+###### h6
+
+# Lists
+
+1. one
+2. two
+3. three
+4. four
+    1. sub-five
+    2. sub-six
+
+- Bullet point
+    - Sub-bullet point
+- [ ] unchecked
+- [x] checked
+
+# Tables of two kinds
+
+|   |   |   |   |   |
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+
+
+| Name   | Language   | Notes        |
+|--------|------------|--------------|
+| Tami   | TypeScript | Very neat    |
+| Blog   | Markdown   | Now improved |
