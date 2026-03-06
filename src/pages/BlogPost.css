@@ -141,7 +141,7 @@ main {
 .back-link-wrapper {
     margin: 1em 0;
     display: flex;
-    justify-self: flex-end;
+    /*justify-self: flex-end;*/
     /*box-shadow: .4em .4em  ;*/
 
     .back-link {
