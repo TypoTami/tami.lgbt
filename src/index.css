@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "IBM Plex Sans", sans-serif;
+    /*font-size: 1.5em;*/
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.button-shell {
+    display: inline-block;
+    box-shadow: .4em .4em 0 #000;
+}
+
+.button-shell > button {
+    font: inherit;
+    padding: .5em 1em;
+    border: .1em solid #000;
+    background: white;
+    transform: translate(0, 0);
+    transition: transform 80ms ease, border-color 120ms ease;
+}
+
+.button-shell > button:hover {
+    transform: translate(.05em, .05em);
+}
+
+.button-shell > button:active {
+    transform: translate(.2em, .2em);
+}
+
+a {
+    /*color: brown;*/
+}
+
+.item {
+    padding: 2em;
+}
+
+#navbar {
+    margin: 2em 4em 0;
+    padding: 1em;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+#navbar img {
+    margin-left: auto;
+    height: 3em;
+}
+
+#navbar a {
+    margin: 0 1em;
+}
+
+#container {
+    display: grid;
+    margin: 4em 4em 0;
+    text-align: center;
+}
+
+#blurb {
+    text-align: left;
+    font-size: 1.5em;
+}
+
+#pronouns {
+    color: dimgray;
+    font-size: .5em;
+}
+
+#tamiPic {
+    clip-path: circle(50%);
+    width: 5em;
+
+}
+
+.tamiCard {
+    padding: 1em 1.5em;
+    margin: auto;
+    border: .1em solid #000000;
+    box-shadow: .4em .4em;
+}
+
+#tamiProfile {
+    padding: 1em;
+    text-align: center;
+    line-height: .1em;
+    font-size: 2em;
+}
+
+@media (max-width: 768px) {
+    #navbar {
+        padding: 1rem;
+        margin: 0 0 1em;
+        border-top: 0;
+    }
+
+    #container {
+        margin: 0;
+    }
+
+    .item {
+        padding: 1rem;
+    }
+
+    .tamiCard {
+        width: 100%;
+        box-sizing: border-box;
+        border-right: 0;
+        border-left: 0;
+        box-shadow: 0 .4em 0 #000;
+    }
+}
