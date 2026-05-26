@@ -89,6 +89,14 @@ a {
     box-shadow: .4em .4em;
 }
 
+.sensorCard {
+    padding: 1em 1.5em;
+    margin: auto;
+    margin-top: 1em;
+    border: .1em solid #000000;
+    box-shadow: .4em .4em;
+}
+
 #tamiProfile {
     padding: 1em;
     text-align: center;

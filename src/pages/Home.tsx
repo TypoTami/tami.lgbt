@@ -1,15 +1,22 @@
 import tami from '../assets/portait.jpg'
+import {SensorDisplay} from "../components/SensorDisplay.tsx";
 
 export function Home() {
     return (
         <>
             <div id="container">
+
                 <div className="item tamiCard">
                     <div id="tamiProfile">
                         <img src={tami} id="tamiPic"/>
                         <p id="name">Tami Butcher</p>
                         {/*<p id="pronouns">she/they/fae</p>*/}
                     </div>
+                </div>
+
+                <div className="item sensorCard">
+                    <p id="blurb">Current climate in my room!</p>
+                    <SensorDisplay/>
                 </div>
 
                 <div className="item" id="blurb">
