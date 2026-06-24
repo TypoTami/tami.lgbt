@@ -17,7 +17,7 @@ During summer heatwaves, I generally do not fare well and melt too easily. As I 
 - In the Window that comes up, select _Power Saver_ (On some systems, it may show under a expandable section) ![](attachment/908e7bba7db855cdb2015aed6b727fa7.png)
 - For further configuration, select _Change plan settings_ and click _Change advanced power settings_ ![](attachment/3c8ba0d431015f6ab64f165dda411406.png)
 - You will be presented with a new Power Options dialogue with more granular settings. Near the bottom will be _Processor Power management state_ where you can define caps for maximum CPU use. These have the greatest output for thermally restricting thermal output. It becomes a trade off of how much performance you are willing to lose for reduced thermal output
-- Start with reducing it from 100% to 75%, 50% etc. ![[Pasted image 20260624172550.png]] Due to how processors can differ between systems. You may have to go find the right balance for you. Have a play around. Once done, click apply
+- Start with reducing it from 100% to 75%, 50% etc. ![](attachment/7d533f127516e17f9d0a7374b451a33f.png) Due to how processors can differ between systems. You may have to go find the right balance for you. Have a play around. Once done, click apply
 
 ### GPU (NVIDIA)
 
