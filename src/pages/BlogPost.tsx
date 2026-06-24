@@ -4,6 +4,7 @@ import ReactMarkdown from "react-markdown";
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
 import rehypeHighlight from "rehype-highlight";
+import rehypeRaw from "rehype-raw";
 import "katex/dist/katex-swap.min.css";
 import "highlight.js/styles/github.css";
 import {getPostBySlug, type Post} from "../blog/mdPosts";
@@ -77,7 +78,7 @@ export function BlogPost() {
                     <article className="blog-post-content">
                         <ReactMarkdown
                             remarkPlugins={[remarkMath, remarkGfm]}
-                            rehypePlugins={[rehypeKatex, rehypeHighlight]}
+                            rehypePlugins={[rehypeRaw, rehypeKatex, rehypeHighlight]}
                         >
                             {post.content}
                         </ReactMarkdown>

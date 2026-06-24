@@ -42,7 +42,7 @@ const postLoaders = import.meta.glob("../posts/*.md", {
     import: "default",
 }) as Record<string, () => Promise<string>>;
 
-const imageModules = import.meta.glob("../posts/*.{png,jpg,jpeg,gif,webp,svg,avif}", {
+const imageModules = import.meta.glob("../posts/**/*.{png,jpg,jpeg,gif,webp,svg,avif}", {
     eager: true,
     import: "default",
 }) as Record<string, string>;
