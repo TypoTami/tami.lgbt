@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import {BrowserRouter, Route, Routes} from "react-router-dom"
+import {HashRouter, Route, Routes} from "react-router-dom"
 import {registerSW} from 'virtual:pwa-register'
 
 import './index.css'
@@ -16,7 +16,7 @@ registerSW({
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
     <React.StrictMode>
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 <Route path="/" element={<App/>}>
                     <Route index element={<Home/>}/>
@@ -24,6 +24,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
                     <Route path="blog/:slug" element={<BlogPost/>}/>
                 </Route>
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     </React.StrictMode>
 )
